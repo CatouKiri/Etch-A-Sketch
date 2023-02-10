@@ -1,8 +1,7 @@
 const sketchPad = document.querySelector(".sketchPad");
-
-
 const container = document.getElementById("container");
 
+//make a grid based on 2 values
 function makeRows(rows, cols) {
     sketchPad.style.setProperty('--grid-rows', rows);
     sketchPad.style.setProperty('--grid-cols', cols);
@@ -12,4 +11,4 @@ function makeRows(rows, cols) {
   };
 };
 
-makeRows(5, 5);
+makeRows(10, 10);
