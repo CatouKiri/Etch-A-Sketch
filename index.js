@@ -15,6 +15,10 @@ function makeRows(e) {
   };
 };
 
+sketchPad.addEventListener("mouseover", function(event) {
+  event.target.style.backgroundColor = "black";
+});
+
 makeRows(50);
 
 // //make a grid based on 2 values
