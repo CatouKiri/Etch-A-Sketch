@@ -15,7 +15,7 @@ function makeRows(e) {
   };
 };
 
-makeRows(100);
+makeRows(50);
 
 // //make a grid based on 2 values
 // function makeRows(rows, cols) {

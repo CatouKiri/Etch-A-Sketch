@@ -1,10 +1,11 @@
-header,
-main {
+body{
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sketchPad {
-  width: 800px;
+  width: 600px;
   aspect-ratio: 1/1;
   display: flex;
   flex-direction: column;
@@ -12,7 +13,7 @@ main {
 
 .grid-item {
   padding: auto;
-  border: 1px solid #000000;
+  border: 1px solid black;
   text-align: center;
 }
 
