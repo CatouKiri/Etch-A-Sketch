@@ -1,5 +1,4 @@
 const sketchPad = document.querySelector(".sketchPad");
-const container = document.getElementById("container");
 
 //make a grid based on 1 values
 function makeRows(e) {
