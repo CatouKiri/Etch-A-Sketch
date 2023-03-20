@@ -18,6 +18,9 @@ body{
   background-color: white;
 }
 
+.buttons {
+  
+}
 /* .sketchPad {
   display: grid;
   grid-template-rows: repeat(var(--grid-rows), 1fr);
